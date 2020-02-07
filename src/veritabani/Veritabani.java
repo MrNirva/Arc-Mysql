@@ -88,7 +88,7 @@ public class Veritabani extends javax.swing.JFrame {
         @Override
             public void windowClosing(WindowEvent we){
             
-            int secenek = JOptionPane.showOptionDialog(null,"Kapatmak İstediğinize Eminmisiniz?","ARC MYSQL",-1,2,icon,secenekler,secenekler[1]);
+            int secenek = JOptionPane.showOptionDialog(null,"Kapatmak İstediğinize Emin misiniz?","ARC MYSQL",-1,2,icon,secenekler,secenekler[1]);
                 if(secenek==0){
                     
                 System.exit(0);
